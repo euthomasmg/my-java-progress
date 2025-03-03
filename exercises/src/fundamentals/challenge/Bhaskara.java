@@ -31,9 +31,5 @@ public class Bhaskara {
 
         input.close();
 
-
-
-
-
     }
 }
