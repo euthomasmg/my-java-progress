@@ -21,5 +21,14 @@ public class IfElse {
             System.out.println("Número impar");
         }
 
+        if (n1 % 2 == 0){
+
+            System.out.println("Número par");
+
+        } else {
+
+            System.out.println("Número impar");
+        }
+
     }
 }
