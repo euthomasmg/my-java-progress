@@ -6,28 +6,22 @@ public class Challenge2 {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Informe um ano: ");
-        int ano = input.nextInt();
+        System.out.println("Digite o ano: ");
+        int ano = scanner.nextInt();
 
-        if (ano % 4 == 0) {
+        boolean bissexto = ano % 4 == 0 && ((ano % 100) != 0  || ano % 400 == 0);
 
-            if (ano % 100 == 0 ) {
-
-                System.out.println("Ano é Bicesto:");
-            }
-            else
-            {
-                System.out.println("Ano não é bicesto, porem é divisivel por 4");
-            }
-
+        if (bissexto == true)
+        {
+            System.out.println(ano + " é um ano bissexto");
         }
         else
         {
-            System.out.println("Ano não é bicesto!!");
+            System.out.println(ano + " não é um ano bissexto");
         }
-
+        scanner.close();
 
     }
 }
