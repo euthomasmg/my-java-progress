@@ -6,8 +6,7 @@ public class Produto {
     double price;
     double discount;
 
-    double precoComDesconto(){
-
-        return price * ( 1 - (discount));
+    public double precoComDesconto(double descontoDoGerente){
+        return price * ( 1 - (discount + descontoDoGerente));
     }
 }

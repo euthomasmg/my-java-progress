@@ -17,8 +17,8 @@ public class MainProduto {
         System.out.println(p2.name);
         System.out.println(p1.name);
 
-        double priceFinal1 = p1.price * (1 - p1.discount);
-        double priceFinal2 = p2.price * (1 - p2.discount);
+        double priceFinal1 = p1.precoComDesconto(0);
+        double priceFinal2 = p2.precoComDesconto(0.1);
         double mediaCarrinho = (priceFinal2 + priceFinal1) / 2;
 
         System.out.println(priceFinal1);
