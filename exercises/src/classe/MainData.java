@@ -7,15 +7,18 @@ public class MainData {
         Data data1 = new Data();
 
         data1.day = 20;
-        data1.month = "Setembro";
+        data1.month = 9;
         data1.year = 2003;
 
-        var data2 = new Data();
+        Data data2 = new Data();
 
         data2.year = 2004;
         data2.day = 6;
-        data2.month = "Dezembro";
+        data2.month = 12;
 
-        System.out.println(data2.year);
+        System.out.println(data2.obterDataFormatada());
+        System.out.println(data1.obterDataFormatada());
+
+        data2.imprimitDataFormatada();
     }
 }
