@@ -4,8 +4,8 @@ public class MainProduto {
 
     public static void main(String[] args) {
 
-        Produto p1 = new Produto();
-        p1.name = "Notebook";
+        Produto p1 = new Produto("Notebook");
+//        p1.name = "Notebook";
         p1.price = 4356.89;
         p1.discount = 0.25;
 
