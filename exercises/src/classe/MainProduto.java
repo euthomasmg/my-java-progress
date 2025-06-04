@@ -20,8 +20,8 @@ public class MainProduto {
 
         System.out.println(priceFinal1);
         System.out.println(priceFinal2);
-        System.out.printf("Média do carrihno = R$%.2f", mediaCarrinho);
+        System.out.printf("Média do carrihno = R$%.2f\n", mediaCarrinho);
 
-
+        System.out.println(Produto.pi);
     }
 }
