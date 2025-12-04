@@ -8,7 +8,10 @@ public class MainData {
 
         Data data2 = new Data(20, 9, 2003);
 
+        Data data3 = new Data(06, 12, 2004);
+
         data1.imprimitDataFormatada();
         data2.imprimitDataFormatada();
+        data3.imprimitDataFormatada();
     }
 }

@@ -25,7 +25,6 @@ public class ValueVSReference {
 
     static void voltarDataParaValorPadrao(Data day){
 
-        
         day.day = 1;
     }
 }
